@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern Interactive Portfolio - Showcasing Web Development Skills">
+    <title>Creative Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">&lt;Portfolio/&gt;</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Pranav Raj</span></h1>
+                <p class="hero-subtitle">I'm a <span class="typewriter" id="typewriter"></span></p>
+                <p class="hero-description">Creating beautiful and functional web experiences with modern technologies</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-box">
+                    <div class="floating-icon icon-1"><i class="fab fa-html5"></i></div>
+                    <div class="floating-icon icon-2"><i class="fab fa-css3-alt"></i></div>
+                    <div class="floating-icon icon-3"><i class="fab fa-js"></i></div>
+                    <div class="floating-icon icon-4"><i class="fab fa-react"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate web developer currently studying at IIIT Bhagalpur with a keen eye 
+                        for design and a love for creating interactive digital experiences. With expertise in 
+                        modern web technologies, I transform ideas into reality through clean, efficient code.
+                    </p>
+                    <p class="about-description">
+                        My journey in web development started with curiosity and has evolved into a commitment 
+                        to crafting exceptional user experiences. I constantly explore new technologies and 
+                        design patterns to stay at the forefront of web development.
+                    </p>
+                    <div class="stats-container">
+                        <div class="stat-box">
+                            <div class="stat-number" data-target="5">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-number" data-target="5">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-number-months">6 Months</div>
+                            <div class="stat-label">Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Explore my latest work and creative solutions</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder project-1">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">A modern e-commerce solution with dynamic product filtering, shopping cart, and secure checkout flow.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder project-2">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">Interactive weather application with real-time data, forecasts, and beautiful visualizations.</p>
+                        <div class="project-tags">
+                            <span class="tag">API Integration</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS Grid</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder project-3">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Task Manager Pro</h3>
+                        <p class="project-description">Productivity app with drag-and-drop functionality, categories, and local storage persistence.</p>
+                        <div class="project-tags">
+                            <span class="tag">Drag & Drop</span>
+                            <span class="tag">Local Storage</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder project-4">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Interactive Game</h3>
+                        <p class="project-description">Engaging browser-based game with smooth animations, score tracking, and responsive controls.</p>
+                        <div class="project-tags">
+                            <span class="tag">Canvas API</span>
+                            <span class="tag">Animations</span>
+                            <span class="tag">Game Logic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Tools and technologies I work with</p>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS3 / SASS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Design & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Responsive Design</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Git & GitHub</span>
+                            <span class="skill-percentage">87%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="87"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Web Performance</span>
+                            <span class="skill-percentage">83%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="83"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-icons">
+                <div class="tech-icon"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="tech-icon"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="tech-icon"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="tech-icon"><i class="fab fa-react"></i><span>React</span></div>
+                <div class="tech-icon"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                <div class="tech-icon"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-icon"><i class="fab fa-github"></i><span>GitHub</span></div>
+                <div class="tech-icon"><i class="fab fa-figma"></i><span>Figma</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p>pranavraj204@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Phone</h3>
+                        <p>+91 9817440342</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Institution</h3>
+                        <p>IIIT Bhagalpur</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/pranavraj204-glitch" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pranav-raj-5a1080318/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/PranavRaj539746" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/pranav_209006/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Pranav Raj. All rights reserved.</p>
+                <p>Designed & Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
