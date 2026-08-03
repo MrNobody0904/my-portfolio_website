@@ -3,14 +3,11 @@
 Single-page, fully responsive personal portfolio. No build step, no dependencies.
 
 ```
+WhatsApp Image 2026-07-02 at 06.46.48.jpeg
+cv (3).pdf
 index.html
-style.css
 script.js
-assets/
-  profile.jpg              <- add your photo here (square, ~800x800)
-  profile-placeholder.svg  <- shown automatically if profile.jpg is missing
-  favicon.svg
-  Pranav_Raj_Resume.pdf    <- add your resume here for the download button
+style.css
 ```
 
 ## Run locally
@@ -22,8 +19,8 @@ python3 -m http.server 8000
 
 ## Customise
 
-- **Profile photo** — drop a square image at `assets/profile.jpg`.
-- **Resume** — drop the PDF at `assets/Pranav_Raj_Resume.pdf`.
+- **Profile photo** — drop a square image at `WhatsApp Image 2026-07-02 at 06.46.48.jpeg`.
+- **Resume** — drop the PDF at `cv (3).pdf`.
 - **Links** — GitHub / LinkedIn URLs are in `index.html` (hero + contact sections).
 - **Colors** — all tokens live in the `:root` block at the top of `style.css`.
 - **Typing phrases** — `phrases` array in `script.js`.
